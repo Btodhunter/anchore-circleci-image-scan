@@ -8,5 +8,5 @@ workflows:
           image_name: 'anchore/anchore-engine:latest'
           timeout: '500'
       - anchore/image_scan:
-          image_name: 'btodhunter/circleci-demo:latest'
+          image_name: 'btodhunter/circleci-demo:centos'
           private_registry: True
