@@ -1,2 +1,3 @@
-# anchore-circleci-image-scan
-Simple CircleCI configuration for scanning an image using the Anchore Engine Circleci Orb
+# anchore-circleci-image-scan [![CircleCI](https://circleci.com/gh/Btodhunter/anchore-circleci-image-scan.svg?style=svg)](https://circleci.com/gh/Btodhunter/anchore-circleci-image-scan)
+
+Simple configuration for scanning images using the Anchore Engine Circleci Orb.

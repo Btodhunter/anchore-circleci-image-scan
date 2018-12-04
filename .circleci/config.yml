@@ -6,7 +6,7 @@ workflows:
     jobs:
       - anchore/image_scan:
           image_name: 'anchore/anchore-engine:latest'
+          timeout: '500'
       - anchore/image_scan:
           image_name: 'btodhunter/circleci-demo:latest'
           private_registry: True
-          timeout: '500'
